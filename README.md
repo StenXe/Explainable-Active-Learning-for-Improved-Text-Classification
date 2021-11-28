@@ -35,7 +35,7 @@ If using conda, create a new virtual environment (replace \<env\> with environme
  
  `python AL_TextClassification.py -a -r`
  
- Executing above command would run ALEX Method and Random Sampling Method.
+ Executing above command would run ALEX Method and Random Sampling Method. Other parameters are preset however, can be modified from within the script.
  
  ### License
  
