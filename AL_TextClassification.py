@@ -1,19 +1,14 @@
 # imports
-
 import numpy as np
-import pandas as pd
-import seaborn as sbn
-import collections
 import os
 import datetime
 import shap
 import math
-from numpy import dot
-from numpy.linalg import norm
 from scipy.stats import entropy
 from sklearn.metrics import classification_report
 import sys
 
+#disable warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 tf.get_logger().setLevel('INFO')
@@ -88,7 +83,6 @@ def train_model_lstm(model_lstm, x_train, y_train):
     print('Test accuracy:', acc)
 
     return model_lstm
-
 
 def compute_cosine_similarity(term_dict_1, term_dict_2):
     cosine_sim = 0
