@@ -6,7 +6,7 @@ Active Learning facilitates training of models without requiring large amounts o
 ### Contents
 1. **AL_TextClassification.py** - Main python implementation of the proposed strategy.
 2. **AL_TextClassification.ipynb** - A Jupyter notebook interactive version of python implementation, facilitates additional functionality to visualize explanations.
-3. **Annotated Dataset** - A human annotated dataset consisting of 50 samples, 25 positive and 25 negative. It serves as ground truth in model evaluation.
+3. **Annotated Dataset** - A human annotated dataset consisting of 50 samples, 25 positive and 25 negative. The annotations were made using [brat](https://brat.nlplab.org/) to serve as ground truth in model evaluation.
 4. **requirements.txt** - Python dependencies file.
 5. **Results** - Model performance results as obtained during experiments.
 
