@@ -39,4 +39,4 @@ If using conda, create a new virtual environment (replace \<env\> with environme
  
  ### License
  
- This repository has been made available to the public to encourage open research and can be used, reused or modified for non-commercial purposes without prior notice. Please cite this and [ALEX](https://github.com/Ishani-Mondal/Explainable_Active_Learning) repository when using.
+ This repository has been made available to the public to encourage open research and can be used, reused or modified for non-commercial purposes without prior notice. Please cite this and [ALEX](https://github.com/Ishani-Mondal/Explainable_Active_Learning) repository when using in your work.
